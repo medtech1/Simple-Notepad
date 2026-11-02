@@ -535,6 +535,13 @@ typedef NS_ENUM(NSInteger, SNPTextFeature) {
     NSMenu *mainMenu = [[NSMenu alloc] initWithTitle:@"MainMenu"];
     NSApp.mainMenu = mainMenu;
     NSMenu *appMenu = [self addTopLevelMenu:@"Simple Notepad" to:mainMenu];
+    [self addItem:@"About Simple Notepad"
+            action:@selector(orderFrontStandardAboutPanel:)
+          shortcut:@""
+              menu:appMenu
+            target:NSApp];
+
+    [appMenu addItem:[NSMenuItem separatorItem]];
     [self addItem:@"Quit Simple Notepad" action:@selector(terminate:) shortcut:@"q"
              menu:appMenu target:NSApp];
 

@@ -266,6 +266,7 @@
 				INFOPLIST_FILE = Notepad/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simple Notepad";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				"INFOPLIST_KEY_NSHumanReadableCopyright[sdk=*]" = "© 2026 M. Stoetzel";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,6 +307,7 @@
 				INFOPLIST_FILE = Notepad/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simple Notepad";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				"INFOPLIST_KEY_NSHumanReadableCopyright[sdk=*]" = "© 2026 M. Stoetzel";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
