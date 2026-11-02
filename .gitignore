@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+
+# Xcode build products
+build/
+DerivedData/
+*.xcarchive
+*.dSYM
+
+# Local source backups
+*.backup-*
+*.m.backup-*
+
+# Backup app icons
+Notepad/Assets.xcassets/AppIcon-backup-*/
+
+# Temporary files
+*.swp
+*~
