@@ -1,4 +1,4 @@
-# Simple Notepad
+# Simple Notepad for MAC
 
 Simple Notepad is a lightweight, native macOS plain-text editor
 written in Objective-C using Apple's AppKit framework.
